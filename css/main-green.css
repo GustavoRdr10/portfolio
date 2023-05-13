@@ -857,8 +857,8 @@ body > footer .copyrights {
 }
 
 .start-page-content .page-header .photo {
-  max-width: 280px;
-  margin-left: 130px;
+  max-width: 800px;
+  margin-left: 70px;
   margin-bottom: -75px;
   border: 4px solid #fff;
   /* border-radius: 150px; */
@@ -870,6 +870,12 @@ body > footer .copyrights {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+.start-page-content .page-header .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .start-page-content .page-header .photo:hover {
